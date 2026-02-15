@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+pythonenv*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Large files (datasets, models)
+data/
+*.tar.gz
+*.zip
+*.7z
+*.pth
+*.pt
+*.h5
+*.onnx
+models/*.pth
+backend/api/models/original/*.pth
+backend/api/models/quantized/*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
